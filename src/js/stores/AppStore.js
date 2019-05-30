@@ -1,4 +1,4 @@
-import { decorate, observable, action, autorun } from 'mobx';
+import { decorate, observable, action } from 'mobx';
 import humanize from '../logic/Humanizer';
 
 class AppStore {
@@ -57,12 +57,6 @@ class AppStore {
       this.velocityPreset
     ].value;
     this.globalOffset = this.globalOffsetChoices[this.globalOffsetPreset].value;
-
-    // autorun(() => {
-    //   console.log(this.timingVariance);
-    //   console.log(this.velocityVariance);
-    //   console.log(this.globalOffset);
-    // });
   }
 
   loadTimingPreset() {
