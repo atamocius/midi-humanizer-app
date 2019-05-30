@@ -106,7 +106,7 @@ const App = store =>
             }
           }}
         >
-          Apply
+          Humanize
         </button>
       </div>
     </div>
