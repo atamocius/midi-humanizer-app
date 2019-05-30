@@ -1,0 +1,19 @@
+.radio-group {
+  display: flex;
+  margin: 0.4rem 0;
+
+  &__choice {
+    display: flex;
+    align-items: center;
+    padding: 0 0.7rem 0 0;
+  }
+
+  &__choice-input {
+
+  }
+
+  &__choice-label {
+    user-select: none;
+    margin-left: 0.1rem;
+  }
+}

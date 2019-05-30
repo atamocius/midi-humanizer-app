@@ -1,0 +1,14 @@
+.number-field {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0;
+
+  &__label {
+    user-select: none;
+    margin: 0 0 0.2rem 0.5rem;
+  }
+
+  &__input {
+    width: 5rem;
+  }
+}
